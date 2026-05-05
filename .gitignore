@@ -1,0 +1,50 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build outputs
+build/
+dist/
+*.egg-info/
+src/*.egg-info/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints, if any
+.ipynb_checkpoints/
+
+# Project Secrets
+credentials/*.json
+credentials/*.txt
+tokens/*.json
+
+credentials/
+data/
+exports/
+cache/
+tokens/
+
+*.sqlite
+*.db
