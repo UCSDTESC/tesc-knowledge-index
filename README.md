@@ -270,13 +270,6 @@ tesc-drive auth add --account rohan
 tesc-drive auth add --account contact
 ```
 
-Recommended account labels:
-
-```text
-rohan   = rohan@tesc.ucsd.edu / rohan@tescatucsd.org
-contact = contact@tesc.ucsd.edu / contact@tescatucsd.org
-```
-
 OAuth tokens are saved locally in:
 
 ```text
